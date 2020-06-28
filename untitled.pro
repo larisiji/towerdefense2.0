@@ -1,7 +1,8 @@
 QT       += core gui
-
+QT       += core
+QT       += multimedia
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
-
+CONFIG+=resources_big
 CONFIG += c++11
 
 # The following define makes your compiler emit warnings if you use
@@ -16,26 +17,42 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    bullet.cpp \
+    bullet2.cpp \
+    bullet3.cpp \
     choosescene.cpp \
     enemy.cpp \
+    enemy2.cpp \
+    enemy3.cpp \
     main.cpp \
     mainwindow.cpp \
     mypushbutton.cpp \
     scene1.cpp \
+    scene2.cpp \
     tower.cpp \
     tower2.cpp \
+    tower3.cpp \
+    tower4.cpp \
     towerposition.cpp \
     waypoint.cpp
 
 HEADERS += \
+    bullet2.h \
+    bullet3.h \
     choosescene.h \
     collision.h \
     enemy.h \
+    enemy2.h \
+    enemy3.h \
     mainwindow.h \
     mypushbutton.h \
     scene1.h \
+    scene2.h \
+    testing.h \
     tower.h \
     tower2.h \
+    tower3.h \
+    tower4.h \
     towerposition.h \
     waypoint.h
 
@@ -49,3 +66,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 RESOURCES += \
     resource.qrc
+
+

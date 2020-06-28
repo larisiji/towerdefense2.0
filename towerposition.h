@@ -14,9 +14,9 @@ public:
     TowerPosition(QPoint pos);
 
     void setHasTower(bool hasTower = true);
-    bool hasTower() const;
-    const QPoint centerPos() const;
-    bool containPoint(const QPoint &pos) const;
+    bool hasTower() ;
+ QPoint centerPos() ;
+    bool containPoint(const QPoint &pos);
 
 
 

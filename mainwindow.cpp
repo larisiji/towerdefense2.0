@@ -8,6 +8,9 @@
 #include<QWidget>
 #include"choosescene.h"
 #include<QTimer>
+#include<QSound>
+#include<QMediaPlayer>
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -30,16 +33,26 @@ MainWindow::MainWindow(QWidget *parent)
        mypushbutton * startBtn=new mypushbutton( ":/back/final.png");
        startBtn->setParent(this);
       startBtn->move((int)(this->width()*0.5-startBtn->width()*0.5),(int)(this->height()*0.35));
+  QSound*startsound=new QSound ("qrc:/back/click.wav");
 
       //选择关卡
       choice=new choosescene;
+
+      //监听
+      connect(choice,&choosescene::choosesceneBack,this,[=](){
+          choice->hide();
+          this->show();
+      });
+
       //自身隐藏
      connect(startBtn,&mypushbutton::clicked,[=](){
+         startsound->play();
          startBtn->zoom1();
          startBtn->zoom2();
          QTimer::singleShot(500,this,[=](){
              this->hide();
           choice->show();
+
     });
          });
 

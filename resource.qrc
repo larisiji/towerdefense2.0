@@ -30,12 +30,38 @@
         <file>back/jjj2.png</file>
         <file>back/jjj3.png</file>
         <file>back/jjj4.png</file>
-        <file>back/enemy3.jpg</file>
         <file>back/enemy4.jpeg</file>
         <file>back/enemy5.jpeg</file>
         <file>back/enemy6.jpg</file>
         <file>back/enemy7.jpg</file>
         <file>back/enemy8.jpeg</file>
         <file>back/background3.0.jpg</file>
+        <file>back/enemy3.png</file>
+        <file>back/enemy4.png</file>
+        <file>back/enemy7.png</file>
+        <file>back/enemy8.png</file>
+        <file>back/enemy6.png</file>
+        <file>back/bullet2.png</file>
+        <file>back/bullet2.jpg</file>
+        <file>back/bullet.png</file>
+        <file>back/bullet3.png</file>
+        <file>back/bullet6.png</file>
+        <file>back/you lose.jpg</file>
+        <file>back/you win.jpg</file>
+        <file>back/music.wav</file>
+        <file>back/finalversion.png</file>
+        <file>back/backbtn2.png</file>
+        <file>back/background5.jpg</file>
+        <file>back/zhangyu.png</file>
+        <file>back/sun.png</file>
+        <file>back/you lose.png</file>
+        <file>back/you win.png</file>
+        <file>back/enemy7.0.png</file>
+        <file>back/enemy4.0.png</file>
+        <file>back/click.wav</file>
+        <file>back/bullet.wav</file>
+        <file>back/triumoh.wav</file>
+        <file>back/music2.wav</file>
+        <file>back/lose.wav</file>
     </qresource>
 </RCC>

@@ -10,20 +10,20 @@ TowerPosition::TowerPosition(QPoint pos)
 {
 }
 
-const QPoint TowerPosition::centerPos() const
+QPoint TowerPosition::centerPos()
 {
     QPoint offsetPoint(ms_fixedSize.width() / 2, ms_fixedSize.height() / 2);
     return m_pos + offsetPoint;
 }
 
-bool TowerPosition::containPoint(const QPoint &pos) const
+bool TowerPosition::containPoint(const QPoint &pos)
 {
     bool isXInHere = m_pos.x() < pos.x() && pos.x() < (m_pos.x() + ms_fixedSize.width());
     bool isYInHere = m_pos.y() < pos.y() && pos.y() < (m_pos.y() + ms_fixedSize.height());
     return isXInHere && isYInHere;
 }
 
-bool TowerPosition::hasTower() const
+bool TowerPosition::hasTower()
 {
     return m_hasTower;
 }
@@ -32,4 +32,5 @@ void TowerPosition::setHasTower(bool hasTower/* = true*/)
 {
     m_hasTower = hasTower;
 }
+
 
