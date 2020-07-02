@@ -58,7 +58,7 @@ void Bullet2::hitTarget()
     m_game->removedBullet1(this);
 }
 
-void Bullet2::CurrentPos(QPoint pos1)
+void Bullet2::setCurrentPos(QPoint pos1)
 {
     m_currentPos = pos1;
 }

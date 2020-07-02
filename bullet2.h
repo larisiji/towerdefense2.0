@@ -28,7 +28,7 @@ public:
            scene1 *game, const QPixmap &sprite = QPixmap(":/back/bullet6.png"));
     void draw(QPainter *painter) const;
     void move();
-    void CurrentPos(QPoint pos1);
+    void setCurrentPos(QPoint pos1);
     QPoint currentPos() const;
 
 private slots:

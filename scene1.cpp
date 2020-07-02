@@ -73,7 +73,7 @@ QSound*bgm= new QSound("qrc:/back/music.wav");
 m_bgm=bgm;
 m_bgm->setLoops(10);
 
-m_bgm->play();
+//m_bgm->play();
 QTimer::singleShot(300, this, SLOT(gameStart()));
 /*if(m_gameEnded==true)
 {

@@ -1,53 +1,18 @@
 <RCC>
     <qresource prefix="/">
-        <file>back/2222(1).jpg</file>
-        <file>back/2222.png</file>
         <file>back/airtrue.png</file>
-        <file>back/amen4.jpg</file>
-        <file>back/ameng.jpg</file>
-        <file>back/amne.jpg</file>
-        <file>back/background (2).jpg</file>
         <file>back/background.jpg</file>
-        <file>back/background3.jpg</file>
-        <file>back/background4.jpg</file>
-        <file>back/bamboo.png</file>
-        <file>back/bamboo2.jpg</file>
-        <file>back/bigger.jpg</file>
-        <file>back/fan.png</file>
         <file>back/icon.jpg</file>
-        <file>back/jjj.png</file>
-        <file>back/lightsmaller.jpg</file>
-        <file>back/music.mp3</file>
-        <file>back/timg.jpg</file>
-        <file>back/14.jpg</file>
         <file>back/15.jpg</file>
         <file>back/final.png</file>
         <file>back/1.png</file>
         <file>back/2.png</file>
-        <file>back/3.png</file>
         <file>back/enemy1.png</file>
-        <file>back/enemy2.png</file>
-        <file>back/jjj2.png</file>
-        <file>back/jjj3.png</file>
         <file>back/jjj4.png</file>
-        <file>back/enemy4.jpeg</file>
-        <file>back/enemy5.jpeg</file>
-        <file>back/enemy6.jpg</file>
-        <file>back/enemy7.jpg</file>
-        <file>back/enemy8.jpeg</file>
         <file>back/background3.0.jpg</file>
         <file>back/enemy3.png</file>
-        <file>back/enemy4.png</file>
-        <file>back/enemy7.png</file>
-        <file>back/enemy8.png</file>
-        <file>back/enemy6.png</file>
         <file>back/bullet2.png</file>
-        <file>back/bullet2.jpg</file>
-        <file>back/bullet.png</file>
-        <file>back/bullet3.png</file>
         <file>back/bullet6.png</file>
-        <file>back/you lose.jpg</file>
-        <file>back/you win.jpg</file>
         <file>back/music.wav</file>
         <file>back/finalversion.png</file>
         <file>back/backbtn2.png</file>

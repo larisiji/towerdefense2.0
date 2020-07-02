@@ -12,8 +12,9 @@ mypushbutton(QString normalImg,QString pressImg="");
 //成员属性 保存用户传入图片
 QString normalImgPath;
 QString pressImgPath;
-signals:
+
 //bounce
+
 void zoom1();
 void zoom2();
 };
